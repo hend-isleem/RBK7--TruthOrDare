@@ -78,15 +78,21 @@ body {
 				13px 13px 1px white,
 				14px 14px 1px white,
 				15px 15px 1px gray,
-
 				25px 25px 15px rgba(0,0,0,0.3);
 }
 
 #firstImg{
 	z-index: 2;
-	margin-left: -8rem;
+	margin-left: 0rem;
 }
 
+#cardContent {
+	/*margin-right: -7rem;*/
+	/*display: flex;
+	flex-direction: column;
+	justify-content: space-around;*/
+	color: black;
+}
 
 #firstCard {
 	width: 240px;
@@ -106,12 +112,21 @@ body {
 	transform: translateY(-1rem);
 }
 
+
+.child {
+	max-width: 210px;
+	max-height: 150px;
+}
+
 #buttons {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
     height: 30px; 
     padding-bottom: 30px;
+}
+.hidden {
+	display: none;
 }
 
 button {
