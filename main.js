@@ -45,4 +45,4 @@ $("#start").on('click', function(){
   	// $("#start").click(function(){
   	// $("#firstCard").html('hi there');
   	// $("#firstCard").html($(this).truth);
-
+  	//\\ Hend
